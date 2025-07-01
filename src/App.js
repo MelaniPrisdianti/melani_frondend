@@ -8,19 +8,20 @@ import Blog from './pages/Blog';
 function App() {
   return (
     <Router>
-      
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4">
-        <Link className="navbar-brand" to="/">Portofolio</Link>
-        <ul className="navbar-nav">
-          <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
-          <li className="nav-item"><Link className="nav-link" to="/about">About</Link></li>
-          <li className="nav-item"><Link className="nav-link" to="/portfolio">Portfolio</Link></li>
-          <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
-          <li className="nav-item"><Link className="nav-link" to="/blog">Blog</Link></li>
-        </ul>
-      </nav>
+      <header className="navbar">
+        <div className="container">
+          <h1 className="brand">Mas Ganteng</h1>
+          <nav className="nav-links">
+            <Link to="/">Home</Link>
+            <Link to="/about">Tentang</Link>
+            <Link to="/portfolio">Karya</Link>
+            <Link to="/contact">Kontak</Link>
+            <Link to="/blog">Tulisan</Link>
+          </nav>
+        </div>
+      </header>
 
-      <div className="container mt-4">
+      <main className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -28,14 +29,12 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
         </Routes>
-      </div>
-<footer className="text-center mt-5">
-  <hr />
-  <p>© 2025 Web Portfolio – Dibuat oleh Mas Ganteng</p>
-</footer>
+      </main>
 
+      <footer className="footer">
+        <p>© 2025 Portofolio Mas Ganteng. Dibangun dengan React & ❤️</p>
+      </footer>
     </Router>
-    
   );
 }
 
