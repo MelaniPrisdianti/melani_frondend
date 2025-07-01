@@ -1,50 +1,55 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f9f9f9;
-  color: #333;
+  color: #222;
+  line-height: 1.6;
 }
 
 .navbar {
-  background-color: #222;
+  background-color: #4f2c91;
+  padding: 1rem 2rem;
   color: white;
-  padding: 1rem 0;
 }
 
 .navbar .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
 }
 
 .brand {
-  font-size: 1.8rem;
-  color: #00d1b2;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
 }
 
 .nav-links a {
-  color: white;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   text-decoration: none;
+  color: white;
   font-weight: 500;
 }
 
 .nav-links a:hover {
-  color: #00d1b2;
+  color: #ffcc00;
 }
 
 .main-content {
   padding: 3rem 2rem;
-  max-width: 1000px;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .footer {
   text-align: center;
   padding: 2rem;
   background-color: #eee;
-  margin-top: 3rem;
   font-size: 0.9rem;
   color: #777;
 }
