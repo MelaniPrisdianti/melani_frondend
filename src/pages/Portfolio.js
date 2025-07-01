@@ -4,8 +4,7 @@ function Portfolio() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch('https://2a2369bf-9310-4226-bf12-efa7b7633679-00-24k1u5lzz904k.sisko.replit.dev/api/projects
-')
+    fetch('https://2a2369bf-9310-4226-bf12-efa7b7633679-00-24k1u5lzz904k.sisko.replit.dev/api/projects')
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);
