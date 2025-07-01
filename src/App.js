@@ -10,13 +10,13 @@ function App() {
     <Router>
       <header className="navbar">
         <div className="container">
-          <h1 className="brand">Mas Ganteng</h1>
+          <Link to="/" className="brand">Ganteng.dev</Link>
           <nav className="nav-links">
-            <Link to="/">Home</Link>
-            <Link to="/about">Tentang</Link>
-            <Link to="/portfolio">Karya</Link>
-            <Link to="/contact">Kontak</Link>
-            <Link to="/blog">Tulisan</Link>
+            <Link to="/">Beranda</Link>
+            <Link to="/about">Profil</Link>
+            <Link to="/portfolio">Proyek</Link>
+            <Link to="/contact">Hubungi</Link>
+            <Link to="/blog">Catatan</Link>
           </nav>
         </div>
       </header>
@@ -32,7 +32,7 @@ function App() {
       </main>
 
       <footer className="footer">
-        <p>© 2025 Portofolio Mas Ganteng. Dibangun dengan React & ❤️</p>
+        <p>© 2025 Ganteng.dev — Dibuat dengan React.js, penuh cinta, dan kopi hitam ☕</p>
       </footer>
     </Router>
   );
