@@ -9,7 +9,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <Router>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+<nav className="navbar navbar-expand-lg navbar-dark bg-primary px-4">
+
         <Link className="navbar-brand fw-bold" to="/">Melani Prisdianti</Link>
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ms-auto">
