@@ -1,9 +1,9 @@
 function Home() {
   return (
-    <div className="text-center">
-      <h1 className="display-4">Selamat Datang!</h1>
-      <p className="lead">Saya adalah Fullstack JavaScript Developer.</p>
-      <img src="https://via.placeholder.com/200" alt="Foto Profil" className="rounded-circle mt-3" />
+    <div>
+      <h1>Halo, Saya Mas Ganteng</h1>
+      <p>Frontend Engineer. Pembelajar seumur hidup. Pembuat solusi digital sederhana dan efektif.</p>
+      <img src="/profil.png" alt="Mas Ganteng" style={{ maxWidth: '200px', marginTop: '2rem' }} />
     </div>
   );
 }
