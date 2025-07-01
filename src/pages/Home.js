@@ -1,9 +1,14 @@
 function Home() {
   return (
-    <div>
-      <h1>Halo, Saya Mas Ganteng</h1>
-      <p>Frontend Engineer. Pembelajar seumur hidup. Pembuat solusi digital sederhana dan efektif.</p>
-      <img src="/profil.png" alt="Mas Ganteng" style={{ maxWidth: '200px', marginTop: '2rem' }} />
+    <div className="text-center">
+      <h1 className="display-4 fw-bold mb-3">Halo, Saya Mas Ganteng</h1>
+      <p className="lead">Frontend Engineer & Pembuat solusi digital modern.</p>
+      <img
+        src="/foto-profil.png"
+        alt="Mas Ganteng"
+        className="img-fluid rounded-circle mt-4"
+        style={{ maxWidth: '200px' }}
+      />
     </div>
   );
 }
