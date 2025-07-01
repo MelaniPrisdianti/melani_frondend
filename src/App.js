@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4">
-        <Link className="navbar-brand fw-bold" to="/">Ganteng.dev</Link>
+        <Link className="navbar-brand fw-bold" to="/">Melani Prisdianti</Link>
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item"><Link className="nav-link" to="/">Beranda</Link></li>
@@ -34,7 +34,7 @@ function App() {
 
       <footer className="bg-light text-center py-4 mt-5">
         <hr />
-        <p className="mb-0 text-muted">© 2025 Ganteng.dev — Dibuat dengan React.js, penuh cinta, dan kopi hitam ☕</p>
+        <p className="mb-0 text-muted">© 2025 Ganteng.dev — Dibuat dengan React.js, oleh melani ☕</p>
       </footer>
     </Router>
   );
